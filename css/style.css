@@ -1,0 +1,50 @@
+body {
+  background-color: #1D8981;
+  color: #eee;
+  text-align: center;
+}
+
+h1 {
+  display: none;
+}
+
+.stellion {
+  display: block;  
+  position: absolute;
+  right: 0;
+  top:300px;
+  width: 400px;
+  margin: 10px;
+}
+
+.logotype {
+  display: block;
+  width: 100%;
+  margin: 10px;
+}
+
+main {
+  width: 360px;
+  margin: 200px auto;
+}
+
+p {
+  line-height: 2em;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px;
+}
+
+@media (max-width: 600px) {
+  .stellion {
+    top: 800px;
+    width: 200px;
+  }
+}
