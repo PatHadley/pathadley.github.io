@@ -48,3 +48,7 @@ li {
     width: 200px;
   }
 }
+
+#pat-letter-p:hover {
+  fill: red;
+}
