@@ -42,13 +42,18 @@ li {
   margin: 30px;
 }
 
+
+.pat {
+  fill: #fff;
+}
+
+.hadley {
+  fill: #000;
+}
+
 @media (max-width: 600px) {
   .stellion {
     top: 800px;
     width: 200px;
   }
-}
-
-#pat-letter-p:hover {
-  fill: red;
 }
