@@ -2,6 +2,7 @@ body {
   background-color: #1D8981;
   color: #eee;
   text-align: center;
+  font-family: 'Sahitya', serif;
 }
 
 h1 {
@@ -21,6 +22,14 @@ h1 {
   display: block;
   width: 100%;
   margin: 10px;
+}
+
+.pat {
+  fill: #fff;
+}
+
+.hadley {
+  fill: #000;
 }
 
 main {
@@ -43,17 +52,16 @@ li {
 }
 
 
-.pat {
-  fill: #fff;
-}
 
-.hadley {
-  fill: #000;
-}
 
-@media (max-width: 600px) {
+
+@media (max-width: 900px) {
+  main {
+    margin: 50px 20px;
+  }
   .stellion {
-    top: 800px;
+    top: 600px;
     width: 200px;
   }
+
 }
