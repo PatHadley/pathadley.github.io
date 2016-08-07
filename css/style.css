@@ -13,9 +13,10 @@ h1 {
   display: block;  
   position: absolute;
   right: 0;
-  top:300px;
-  width: 400px;
+  top:120px;
+  width: 300px;
   margin: 10px;
+  z-index: -1;
 }
 
 .logotype {
@@ -34,7 +35,7 @@ h1 {
 
 main {
   width: 360px;
-  margin: 200px auto;
+  margin: 80px auto;
 }
 
 p {
@@ -46,24 +47,17 @@ ul {
 }
 
 li {
+  font-family: 'Exo 2', sans-serif;
   text-decoration: none;
   display: inline-block;
-  margin: 30px;
+  margin: 10px;
 }
 
-#pat-letter-p:hover {
-  fill: #ccc;
+strong {
+  font-size: 3.4em;
+  color: #000;
 }
 
-
-
-@media (max-width: 900px) {
-  main {
-    margin: 50px 20px;
-  }
-  #stellion {
-    top: 600px;
-    width: 200px;
-  }
-
+strong:hover {
+  color: #555;
 }
