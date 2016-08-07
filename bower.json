@@ -1,0 +1,20 @@
+{
+  "name": "pathadley-portfolio",
+  "homepage": "https://github.com/pathadley/pathadley.github.io",
+  "authors": [
+    "Pat Hadley <pat@pathadley.net>"
+  ],
+  "description": "Pat Hadley's web-developer portfolio",
+  "main": "js/app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-modal": "^0.7.0"
+  }
+}

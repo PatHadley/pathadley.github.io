@@ -6,8 +6,13 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Sahitya" rel="stylesheet">
-    
+
     <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/jquery-modal/jquery.modal.js"></script>
+    <script src="js/pdfobject.js"></script>
+    <script src="js/app.js"></script>
 
   </head>
   <body>
@@ -20,12 +25,16 @@
     <p>Full portfolio coming soon - in the meantime:</p>
     <ul>
       <li><a href="https://twitter.com/PatHadley"><img src="assets/twitterbird.png" alt="Pat Hadley on Twitter" target="_blank"></a></li>
-      <li><a href="https://github.com/PatHadley"><img src="assets/githuboctocat.png" alt="Pat Hadley on GitHub" target="_blank"></a></li>
       <li><a href="mailto:pat@pathadley.net"><img src="assets/emailplane.png" alt="Email Pat Hadley" target="_blank"></a></li>
+      <li><a href="https://github.com/PatHadley"><img src="assets/githuboctocat.png" alt="Pat Hadley on GitHub" target="_blank"></a></li>
+      <li><a href="#currivit" rel="modal:open"><strong>CV</strong></a></li>
     </ul>
   </main>
+  <div id="curricvit"></div>
+
   <footer>
-    <img class="stellion" src="assets/StellionLogo1.png">
+    <img id="stellion" src="assets/StellionLogo1.png">
   </footer>
+
   </body>
 </html>

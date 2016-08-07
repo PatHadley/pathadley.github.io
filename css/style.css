@@ -9,7 +9,7 @@ h1 {
   display: none;
 }
 
-.stellion {
+#stellion {
   display: block;  
   position: absolute;
   right: 0;
@@ -51,7 +51,9 @@ li {
   margin: 30px;
 }
 
-
+#pat-letter-p:hover {
+  fill: #ccc;
+}
 
 
 
@@ -59,7 +61,7 @@ li {
   main {
     margin: 50px 20px;
   }
-  .stellion {
+  #stellion {
     top: 600px;
     width: 200px;
   }
