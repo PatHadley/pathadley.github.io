@@ -5,7 +5,10 @@ Snap.load("assets/logo.svg", function(file) {
   s.append(file);
 });
 
+logoparts = s.node;
+
+console.log(logoparts);
 
 s.click(function(){
-  console.log("clicked");
+  console.log("pat clicked");
 });
