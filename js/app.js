@@ -1,8 +1,8 @@
-var s = Snap("#svg");
+var s = new Snap("#logo");
 
 
-var logo = Snap.load("assets/logo.svg", function(loadedFragment) {
-  s.append(loadedFragment);
+Snap.load("assets/logo.svg", function(file) {
+  s.append(file);
 });
 
 
