@@ -1,9 +1,13 @@
+/*===BASICS===*/
+
 body {
   background-color: #1D8981;
   color: #eee;
   text-align: center;
   font-family: 'Sahitya', serif;
 }
+
+/*===TYPE===*/
 
 h1 {
   display: none;
@@ -14,41 +18,14 @@ h2 {
   line-height: 1.6em;
 }
 
-#stellion {
-  display: block;  
-  position: absolute;
-  right: 0;
-  top:120px;
-  width: 300px;
-  margin: 10px;
-  z-index: -1;
-}
-
-#logo {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-}
-
-.pat {
-  fill: #fff;
-}
-
-.hadley {
-  fill: #000;
-}
-
-main {
-  width: 360px;
-  margin: 40px auto;
+h3 {
+  font-family: 'Exo 2', sans-serif;
+  color: #924001;
+  text-align: left;
 }
 
 p {
   line-height: 2em;
-}
-
-ul {
-  display: inline-block;
 }
 
 li {
@@ -60,9 +37,57 @@ li {
 
 strong {
   font-size: 3.4em;
-  color: #000;
 }
 
-strong:hover {
-  color: #555;
+a {
+  color: #924001;
 }
+
+a:hover {
+  color: #D5A179;
+}
+
+/*===MAIN===*/
+
+main {
+  width: 360px;
+  margin: 40px auto;
+}
+
+.pat {
+  fill: #fff;
+}
+
+.hadley {
+  fill: #000;
+}
+
+/*===PROJECTS===*/
+
+
+.project-link {
+  height: 33%;
+}
+
+.project-link img {
+  width: 100%;
+}
+
+/*===LINKS===*/
+
+ul {
+  display: inline-block;
+}
+
+/*===EXTRAS===*/
+
+#stellion {
+  display: block;  
+  position: absolute;
+  right: 0;
+  top:120px;
+  width: 300px;
+  margin: 10px;
+  z-index: -1;
+}
+
