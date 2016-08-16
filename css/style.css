@@ -18,12 +18,6 @@ h2 {
   line-height: 1.6em;
 }
 
-h3 {
-  font-family: 'Exo 2', sans-serif;
-  color: #924001;
-  text-align: left;
-}
-
 p {
   line-height: 2em;
 }
@@ -91,3 +85,8 @@ ul {
   z-index: -1;
 }
 
+/*===RESPONSIVE===*/
+
+@media (max-width: 800px){
+
+}
